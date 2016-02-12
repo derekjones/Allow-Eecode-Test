@@ -13,7 +13,7 @@ install:
 script:
   - vendor/jakub-onderka/php-parallel-lint/parallel-lint --exclude vendor .
 
-before_deploy: "zip 'Allow-EEcode' allow_eecode"
+before_deploy: "zip -r 'Allow-EEcode' allow_eecode"
 
 deploy:
   provider: releases
