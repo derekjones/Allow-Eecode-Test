@@ -24,4 +24,3 @@ deploy:
   on:
     php: 7.0
     tags: true
-    condition: $TRAVIS_PULL_REQUEST = false
