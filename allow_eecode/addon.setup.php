@@ -5,7 +5,7 @@ return array(
 	'author_url'  => 'https://ellislab.com/',
 	'name'        => 'Allow EE Code',
 	'description' => 'Allows ExpressionEngine code to be used in entries',
-	'version'     => '4.0.0',
+	'version'     => '5.0.0',
 	'namespace'   => 'User\Addons\AllowEecode',
 	'settings_exist' => FALSE
 );
