@@ -20,7 +20,7 @@ deploy:
   file:
     - "allow_eecode/addon.setup.php"
     - "allow_eecode/pi.allow_eecode.php"
-    - "README.md"
+    - "allow_eecode/README.md"
   skip_cleanup: true
   on:
     repo: EllisLab/Allow-Eecode-Test
